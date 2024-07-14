@@ -1,0 +1,146 @@
+.header{
+    background-color: rgb(151, 42, 136);
+    text-align: center;
+width: 100%;
+height: 110px;
+border-radius: 20px 20px 0 0;
+box-shadow: 1px 1px 8px rgb(151, 42, 136);
+}
+h1{
+    margin-top: 0;
+    padding-top: 10px;
+    box-shadow: 0 0 10px rgb(101, 23, 90);
+    border-radius: 20px;
+}
+.header button{
+    padding: 5px 90px;
+    font-size: 15px;
+    font-weight: 500;
+    border-radius: 20px;
+    background-color: #26333b;
+    color: rgba(255, 255, 255, 0.895);
+    border:none;
+    cursor: pointer;
+}
+#high{
+    font-weight: 500;
+    background-color: rgba(240, 248, 255, 0.681);
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.658);
+    border: none;
+    margin-top: 20px;
+    margin-left: 20px;
+    border-radius: 20px;
+    padding: 7px 20px;
+    position: absolute;
+}
+/* #curnt{
+    font-weight: 500;
+    background-color: rgba(240, 248, 255, 0.681);
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.658);
+    border: none;
+    border-radius: 20px;
+    padding: 7px 20px;
+    position: absolute;
+   margin-left: 85%;
+    justify-self: end;
+} */
+button:hover{
+    box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.237);
+}
+button:active{
+    background-color: #161d22;
+}
+body{
+    background-color: #26333b;
+    
+}
+.btn{
+    width: 150px;
+    height: 150px;
+    background-color: aliceblue;
+    margin: 0.5rem;
+    box-shadow: 1px 1px 7px rgba(255, 255, 255, 0.186);
+
+}
+/* .btn:active{
+    background-color: white;
+} */
+
+.game{
+    margin-top:20px ;
+    
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+.rhino{
+    
+    background-color: rgb(48, 214, 192);
+    border-radius: 50% 0 0 0px;
+}
+.cat{
+    background-color: rgb(189, 73, 111);
+    border-radius:  0 0 0 50%;
+    /* text-align: center; */
+}
+.dog{
+   
+    background-color: rgb(175, 83, 187);
+    border-radius:  0 50% 0 0px;
+}
+.frog{
+    background-color: rgb(78, 128, 236);
+    border-radius:  0 0 50% 0px;
+}
+.red{
+    background-color: red;
+}
+i{
+    font-size: 60px;
+   color: aliceblue;
+   opacity: .5;
+   margin: 3rem 3rem;
+   
+}
+.center{
+    position:absolute;
+    height: 13vh;
+    width: 13vh;
+    text-align: center;
+    align-self: center;
+    background-color: #26333b;
+    border-radius: 50%;
+    color:white;
+    /* font-size: 2rem; */
+    
+}
+h3{
+    font-size: 30px;
+}
+p{
+    margin-top:50px ;
+    color:rgb(235, 81, 81);
+    text-align: center;
+    
+}
+
+.gameflash{
+    opacity: 1;
+    box-shadow: 0 0 10px white;
+}
+.userflash{
+    background-color: white;
+}
+.style{
+    display: flex;
+    flex-wrap: wrap;
+   
+    justify-content: space-between;
+    
+}
+#style{
+    transform: rotate(10deg);
+    font-size: 100px;
+    opacity: .2;
+}
