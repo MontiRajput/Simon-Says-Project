@@ -33,17 +33,7 @@ h1{
     padding: 7px 20px;
     position: absolute;
 }
-/* #curnt{
-    font-weight: 500;
-    background-color: rgba(240, 248, 255, 0.681);
-    box-shadow: 0 0 10px rgba(255, 255, 255, 0.658);
-    border: none;
-    border-radius: 20px;
-    padding: 7px 20px;
-    position: absolute;
-   margin-left: 85%;
-    justify-self: end;
-} */
+
 button:hover{
     box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.237);
 }
@@ -58,13 +48,12 @@ body{
     width: 150px;
     height: 150px;
     background-color: aliceblue;
-    margin: 0.5rem;
+    margin-right: 0.6rem;
+    margin-bottom: 0.6rem;
     box-shadow: 1px 1px 7px rgba(255, 255, 255, 0.186);
 
 }
-/* .btn:active{
-    background-color: white;
-} */
+
 
 .game{
     margin-top:20px ;
@@ -77,21 +66,21 @@ body{
 .rhino{
     
     background-color: rgb(48, 214, 192);
-    border-radius: 50% 0 0 0px;
+    border-radius: 60% 0 0 0px;
 }
 .cat{
     background-color: rgb(189, 73, 111);
-    border-radius:  0 0 0 50%;
-    /* text-align: center; */
+    border-radius:  0 0 0 60%;
+   
 }
 .dog{
    
     background-color: rgb(175, 83, 187);
-    border-radius:  0 50% 0 0px;
+    border-radius:  0 60% 0 0px;
 }
 .frog{
     background-color: rgb(78, 128, 236);
-    border-radius:  0 0 50% 0px;
+    border-radius:  0 0 60% 0px;
 }
 .red{
     background-color: red;
@@ -111,8 +100,8 @@ i{
     align-self: center;
     background-color: #26333b;
     border-radius: 50%;
+    margin-right:0.6rem ;
     color:white;
-    /* font-size: 2rem; */
     
 }
 h3{
